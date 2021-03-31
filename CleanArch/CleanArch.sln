@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.IoC", "Clea
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data", "{33B909FE-BE79-4186-84EC-A8977E1B6276}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.MVC", "CleanArch.UI.MVC", "{D79DEB75-06D1-4437-B928-8646680ACFC3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Presentation", "CleanArch.Presentation", "{D79DEB75-06D1-4437-B928-8646680ACFC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.MVC", "CleanArch.MVC\CleanArch.MVC.csproj", "{BEF25414-601D-48A8-A871-02D8C9B768CC}"
 EndProject
