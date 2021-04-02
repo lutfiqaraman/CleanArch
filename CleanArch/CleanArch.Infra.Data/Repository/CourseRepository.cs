@@ -20,7 +20,7 @@ namespace CleanArch.Infra.Data.Repository
 
         IEnumerable<Course> ICourseRepository.GetCourses()
         {
-            throw new NotImplementedException();
+            return Context.Courses;
         }
     }
 }

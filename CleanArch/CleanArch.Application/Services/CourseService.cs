@@ -18,9 +18,15 @@ namespace CleanArch.Application.Services
             CourseRepository = courseRepository;
         }
 
-        public IEnumerable<CourseViewModel> GetCourses()
+        public CourseViewModel GetCourses()
         {
-            throw new NotImplementedException();
+            CourseViewModel result = new()
+            {
+                Courses = CourseRepository.GetCourses()
+            };
+
+
+            return result;
         }
     }
 }
