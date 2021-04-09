@@ -18,7 +18,7 @@ namespace CleanArch.Infra.Data.Repository
             Context = universityDBContext;
         }
 
-        IEnumerable<Course> ICourseRepository.GetCourses()
+        IQueryable<Course> ICourseRepository.GetCourses()
         {
             return Context.Courses;
         }
