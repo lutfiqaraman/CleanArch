@@ -1,5 +1,6 @@
 using CleanArch.Infra.Data.Context;
 using CleanArch.Infra.IoC;
+using CleanArch.MVC.Configurations;
 using CleanArch.MVC.Data;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -40,6 +41,8 @@ namespace CleanArch.MVC
             services.AddRazorPages();
 
             services.AddMediatR(typeof(Startup));
+
+            services.RegisterAutoMapper();
 
             RegisterServices(services);
         }

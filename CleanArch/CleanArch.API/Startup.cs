@@ -1,3 +1,4 @@
+using CleanArch.API.Configuration;
 using CleanArch.Infra.Data.Context;
 using CleanArch.Infra.IoC;
 using MediatR;
@@ -34,6 +35,9 @@ namespace CleanArch.API
             });
 
             services.AddMediatR(typeof(Startup));
+
+            services.RegisterAutoMapper();
+
             RegisterServices(services);
 
         }
